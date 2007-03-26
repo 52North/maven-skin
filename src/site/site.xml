@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <!-- $Id: site.xml 183 2007-02-13 13:12:13Z drewnak $ -->
+    <bannerLeft>
+        <name>52 North</name>
+        <src>images/52north_transp.png</src>
+        <href>http://www.52north.org/</href>
+    </bannerLeft>
+    <body>
+        <menu name="Overview">
+            <item name="Wiki" href="http://www.incubator52n.de/twiki/bin/view/Security/WebHome"/>	
+        </menu>
+        <menu ref="modules" />
+        <menu ref="reports" />
+        <menu ref="parent" />
+    </body>
+  <skin>
+    <groupId>org.n52</groupId>
+    <artifactId>maven-skin</artifactId>
+    <version>1.0</version>
+  </skin>
+</project>
