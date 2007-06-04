@@ -1,0 +1,219 @@
+/*-------------------- Layout Formatierung ----------------------*/
+html,body{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+    font-size: 12px;
+}
+
+#header{
+	width:80%;
+	height:30px;
+	background:url(../images/info_right.gif) no-repeat top right;
+	background-color:#cde2ed !important;
+	/*margin-top:10px;*/
+	text-align:right;
+	overflow:hidden;
+}
+
+#logo{
+	width:80%;
+	height:110px;
+	background:url(../images/logo.gif) no-repeat top left;
+}
+
+#banner{
+	width:80%;
+	height:74px;
+	background:url(../images/banner.gif) no-repeat top right;
+	background-color:#1b879b !important;
+}
+
+#menues{
+	width:200px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	/*height:300px;*/
+	padding-top:10px;
+}
+
+#content{
+	width:auto;
+	margin: 0% 20% 0% 200px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:15px;
+	padding-right:0px;
+}
+
+#pathway{
+	margin-bottom:10px;
+}
+
+#cleaner{
+	clear:both;
+	width:80%;
+	height:15px;
+	font-size:1px;
+	border:none;
+	margin:0;
+	padding:0;
+	background:transparent;
+	text-align:right;
+}
+
+#footer{
+	width:80%;
+	height:42px;
+	background:url(../images/footer_right.gif) no-repeat top right;
+	background-color:#cde2ed !important;
+	margin-bottom:10px;
+}
+
+td.link{
+	width: 100px;
+}
+
+td.copyright{
+	text-align:right;
+	font-size: 12px;
+	color: #000000;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-right:10px;
+}
+.menu{
+	background-color:#cde2ed;
+}
+.menu #layer1{
+	background: url(../images/menu_top.gif) no-repeat top right;
+}
+.menu #layer2{
+	background: url(../images/menu_bottom.gif) no-repeat bottom right;
+	padding-left:20px;
+}
+/*-------------------- Header Formatierung ----------------------*/
+ul.left{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+ul.left li{
+	display:inline;
+	display:inline;
+	margin:0px;
+	padding:0px;
+	color: #336699;
+	background-color:inherit;
+}
+ul.left li a{
+	font-size: 12px;
+	color: #336699 !important;
+	text-decoration: none;
+	font-weight:bold;
+}
+/*-------------------- Pathway Formatierung ----------------------*/
+div#pathway{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	overflow:hidden;
+}
+div#pathway ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+div#pathway ul li{
+	display:inline;
+	margin:0px;
+	padding:0px;
+	color: #336699;
+	background-color:inherit;
+}
+div#pathway ul li a{
+	color: #336699;
+}
+
+/*-------------------- Content Formatierung ----------------------*/
+div#content h2{
+	font-size: 14px;
+	font-weight: bold;
+	color: #336699;
+}
+div#content h3{
+	font-size: 13px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration:underline;
+}
+div#content a{
+	font-size: 12px;
+	color: #336699;
+}
+div#content .bodyTable th{
+	font-size: 12px;
+	color: #336699;
+	font-weight:bold;
+	text-align:left;
+	padding:5px;
+}
+div#content .bodyTable td{
+	font-size: 12px;
+	color: #000000;
+	padding:5px;
+}
+/*-------------------- Menu Formatierung ----------------------*/
+div#layer2 ul, div#layer2 ul ul, div#layer2 ul ul ul{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	list-style:none;
+}
+div#layer2 ul li{
+	margin:0px;
+	padding:0px;
+}
+div#layer2 ul li span{
+	display:block;
+	font-size:13px;
+	color:#336699;
+	font-weight:bold;
+	padding:10px 0px 5px 0px;
+	margin:0px 0px 0px 0px;
+}
+div#layer2 ul li ul li{
+	padding:3px 0px 3px 0px;	
+}
+div#layer2 ul li ul li a{
+	background: url(../images/nav_link_0.gif) no-repeat;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	padding-left: 18px;
+}
+div#layer2 ul li ul li a:hover{
+	background: url(../images/nav_link_2.gif) no-repeat;
+}
+div#layer2 ul li ul li a.active{
+	background: url(../images/nav_link_1.gif) no-repeat;
+}
+div#layer2 ul li ul li ul li{
+	padding:4px 0px 4px 0px;
+}
+div#layer2 ul li ul li ul li a{
+	background: url(../images/nav_link_0.gif) no-repeat;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	text-decoration: none;
+	padding-left: 18px;
+    margin-left: 18px;
+}
+div#layer2 ul li ul li ul li a:hover{
+	background: url(../images/nav_link_2.gif) no-repeat;
+}
+div#layer2 ul li ul li ul li a.active{
+	background: url(../images/nav_link_1.gif) no-repeat;
+}
