@@ -199,6 +199,24 @@ div#content table.bodyTable tr.a {
 div#content table.bodyTable tr.b {
 	background-color: #cde2ed;
 }
+
+div#content dt{
+	padding: 4px 4px 4px 30px;
+	font-weight: bold;
+	font-size: 14px;
+	background-image: url(../images/def.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+div#content dd{
+	margin: 0px 0px 10px 30px;
+	padding: 3px;
+	background-color: #ffc600;
+	border: 1px dashed #336699;
+}
+div#content dd ul{
+	list-style-image:url(../images/arrow_blue.png);
+}
 img {
 	border:none;
 }
@@ -228,6 +246,7 @@ div#layer2 ul li ul li a{
 	font-size: 12px;
 	color: #000000;
 	text-decoration: none;
+	
 	padding-left: 18px;
 }
 div#layer2 ul li ul li a:hover{
