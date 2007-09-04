@@ -21,7 +21,7 @@
 #set ( $currentItemHref = $PathTool.calculateLink( $item.href, $relativePath ))
 #set ( $currentItemHref = $currentItemHref.replaceAll( "\\", "/" ) )
 #if($alignedFileName == $currentItemHref || $display == true)
-<ul>
+<ul>&nbsp;|
     #if($alignedFileName == $currentItemHref)
     <li>$item.name</li>
     #else
@@ -35,6 +35,27 @@
 #end
 #end
 
+#macro ( breadcrumbs $breadcrumbs )
+  #set ( $counter = 0 )
+  <div id="breadcrumbs">
+  #foreach( $item in $breadcrumbs )
+    #set ( $counter = $counter + 1 )
+    #set ( $currentItemHref = $PathTool.calculateLink( $item.href, $relativePath ) )
+    #set ( $currentItemHref = $currentItemHref.replaceAll( "\\", "/" ) )
+
+    #if ( $currentItemHref == $alignedFileName || $currentItemHref == "" )
+      $item.name
+    #else
+      <a href="$currentItemHref">$item.name</a>
+    #end
+    #if ( $breadcrumbs.size() > $counter )
+      &gt;
+    #end
+  #end
+  </div>
+#end
+
+#set ( $breadcrumbs = $decoration.body.breadcrumbs )
 
 #macro ( secondaryMenuItem $item )
 #if ( $item && $item.items && $item.items.size() > 0 )
@@ -152,7 +173,7 @@ $name
     </div>
 
     <div id="contentframe">
-        <div id="pathway">#secondaryMenu( $decoration.body.menus )</div>
+        <div id="pathway">#if ( $breadcrumbs && $breadcrumbs.size() > 0 )#breadcrumbs( $breadcrumbs )#end#secondaryMenu( $decoration.body.menus )</div>
         <div id="content">$bodyContent</div>
     </div>
 
