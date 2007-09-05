@@ -94,6 +94,21 @@ ${project.organization.name} - All rights reserved
 #end
 #end
 
+#macro ( publishDate $position $publishDate $version )
+  #if ( $publishDate && $publishDate.format )
+    #set ( $format = $publishDate.format )
+  #else
+    #set ( $format = "MM/dd/yyyy" )
+  #end
+
+  $dateFormat.applyPattern( $format )
+
+  #set ( $dateToday = $dateFormat.format( $currentDate ) )
+   
+   <div id="lastPublished">$i18n.getString( "site-renderer", $locale, "template.lastpublished" ): $dateToday</div>
+
+#end
+
 #macro ( poweredByLogo $poweredBy )
 #set($name = "")
 #if( $poweredBy )
@@ -142,7 +157,7 @@ $name
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
-    <title>${project.name}</title>
+    <title>$title</title>
     <link type="text/css" rel="stylesheet" href="css/maven-theme.css"/>
 </head>
 
@@ -173,8 +188,8 @@ $name
     </div>
 
     <div id="contentframe">
-        <div id="pathway">#if ( $breadcrumbs && $breadcrumbs.size() > 0 )#breadcrumbs( $breadcrumbs )#end#secondaryMenu( $decoration.body.menus )</div>
-        <div id="content">$bodyContent</div>
+        <div id="pathway">#if ( $breadcrumbs && $breadcrumbs.size() > 0 )#breadcrumbs( $breadcrumbs )#end#secondaryMenu( $decoration.body.menus )#publishDate( "left" $decoration.publishDate $decoration.version )</div>
+		<div id="content">$bodyContent</div>
     </div>
 
     <div id="cleaner">
