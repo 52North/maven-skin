@@ -110,8 +110,16 @@ ul.left li a{
 	font-weight:bold;
 }
 div#breadcrumbs {
-	float:left;
 	color: #336699;
+	display:inline;
+}
+
+div#lastPublished{
+	text-align:right;
+	color: #336699;
+	display:inline;
+	position:absolute; 
+	right:0px;
 }
 
 /*-------------------- Pathway Formatierung ----------------------*/
@@ -121,7 +129,7 @@ div#pathway{
 	overflow:hidden;
 }
 div#pathway ul{
-	display:inline
+	display:inline;
 	list-style-type:none;
 	margin:0px;
 	padding:0px;
@@ -218,7 +226,8 @@ div#content dd{
 	margin: 0px 0px 10px 0px;
 	padding: 3px;
 	background-color: #fff9e2;
-	border: 1px dashed #336699;
+!	border: 1px dashed #336699;
+	border: 1px dashed #90B5DA;
 }
 div#content dd ul{
 	list-style-image:url(../images/arrow_blue.png);
