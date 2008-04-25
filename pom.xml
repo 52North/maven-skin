@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.n52</groupId>
         <artifactId>52-North</artifactId>
-        <version>RELEASE</version>
+        <version>1.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.n52</groupId>
@@ -15,13 +15,13 @@
     <scm>
         <!-- Specification of the Source-Content-Managmentsystem -->
         <connection>
-            scm:svn:https://core-52n.svn.sourceforge.net/svnroot/core-52n/52-North-maven-skin/trunk/
+            scm:svn:http://52north.org/svn/52n/maven-skin/trunk
         </connection>
         <developerConnection>
-            scm:svn:https://core-52n.svn.sourceforge.net/svnroot/core-52n/52-North-maven-skin/trunk/
+            scm:svn:https://52north.org/svn/52n/maven-skin/trunk
         </developerConnection>
         <url>
-            http://core-52n.svn.sourceforge.net/viewvc/core-52n/52-North-maven-skin/trunk/
+            http://52north.org/cgi-bin/viewvc.cgi/maven-skin/trunk/?root=52n
         </url>
     </scm>
     <build>
