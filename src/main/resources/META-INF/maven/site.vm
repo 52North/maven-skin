@@ -158,7 +158,7 @@ $name
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
     <title>$title</title>
-    <link type="text/css" rel="stylesheet" href="css/maven-theme.css"/>
+    <link type="text/css" rel="stylesheet" href="$relativePath/css/maven-theme.css" foo="bar"/>
 </head>
 
 <body>
