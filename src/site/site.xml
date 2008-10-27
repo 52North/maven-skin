@@ -4,11 +4,18 @@
 	<skin>
 		<groupId>org.n52</groupId>
 		<artifactId>maven-skin</artifactId>
-		<version>RELEASE</version>
+		<version>3</version>
 	</skin>
 	<body>
     	<menu name="Overview">
         	<item name="Wiki" href="http://www.incubator52n.de/twiki/bin/view/Security/WebHome"/>
+			<item name="level 1" href="index.html" collapse="true">
+                <item name="level 1a" href="index.html" collapse="true"/>
+                <item name="level 2" href="index.html"  collapse="true">
+                    <item name="level 2a" href="index.html" collapse="true"/>
+                    <item name="level 3" href="index.html" collapse="true"/>
+                </item>
+            </item>
         </menu>
 		<links>
 			<item name="Community's Home" href="index.html" />
