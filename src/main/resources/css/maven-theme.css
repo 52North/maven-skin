@@ -192,8 +192,8 @@ div#content .section{
 	padding: 0px 0px 5px 0px;
 }
 div#content tt{
-	font-weight:bold;
-	font-size:11px;
+	font-size:12px;
+   color: #010180;
 }
 div#content table {
 	padding:0px;
