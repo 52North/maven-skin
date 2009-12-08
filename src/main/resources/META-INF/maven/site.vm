@@ -198,20 +198,19 @@ $name
     </div>
 
     <div id="footer">
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-left:20px;">
             <tr>
-                <td align="center" valign="middle" class="footerlink"><a
-                        href="http://ifgi.uni-muenster.de/" target="_blank"><img
-                        src="$PathTool.calculateLink("images/ifgi.gif", $relativePath )" border="0" alt="ifgi" /></a></td>
-                <td align="center" valign="middle" class="footerlink"><a
-                        href="http://www.conterra.de/" target="_blank"><img
-                        src="$PathTool.calculateLink("images/conterra.gif", $relativePath )" border="0" alt="con terra" /></a></td>
-                <td align="center" valign="middle" class="footerlink"><a href="http://www.itc.nl/"
-                                                                         target="_blank"><img
-                        src="$PathTool.calculateLink("images/itc.gif", $relativePath )" border="0" alt="itc"/></a></td>
-                <td align="center" valign="middle" class="footerlink"><a href="http://www.esri.com/"
-                                                                         target="_blank"><img
-                        src="$PathTool.calculateLink("images/esri.gif", $relativePath )" border="0" alt="esri"/></a></td>
+                <td align="left" valign="middle" class="footerlink">
+                <a href="http://ifgi.uni-muenster.de/" target="_blank"><img src="$PathTool.calculateLink("images/ifgi.gif",$relativePath )" border="0" alt="ifgi" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://www.conterra.de/" target="_blank"><img src="$PathTool.calculateLink("images/conterra.gif", $relativePath )" border="0" alt="con terra" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://www.itc.nl/" target="_blank"><img src="$PathTool.calculateLink("images/itc.gif", $relativePath )" border="0" alt="itc"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://www.esri.com/" target="_blank"><img src="$PathTool.calculateLink("images/esri.gif", $relativePath)" border="0" alt="esri"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                </td>
+                <td align="center" valign="middle">
+                <a href="http://52north.org/index.php?option=com_content&view=article&id=91:contact&catid=13:information-about-52n-gmbh&Itemid=266" target="_blank">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://52north.org/index.php?option=com_content&view=article&id=92:disclaimer&catid=13:information-about-52n-gmbh&Itemid=267" target="_blank">Disclaimer</a>
+                </td>
                 <td align="center" valign="middle" class="copyright">#copyright()</td>
             </tr>
         </table>

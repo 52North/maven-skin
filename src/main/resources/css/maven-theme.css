@@ -52,6 +52,7 @@ body{
 	background:url(../images/footer_right.gif) no-repeat top right;
 	background-color:#cde2ed !important;
 	margin-bottom:10px;
+    padding-top:5px;
 }
 
 td.link{
