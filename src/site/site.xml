@@ -4,7 +4,7 @@
 	<skin>
 		<groupId>org.n52</groupId>
 		<artifactId>maven-skin</artifactId>
-		<version>4</version>
+		<version>5</version>
 	</skin>
 	<body>
     	<menu name="Overview">
@@ -22,6 +22,6 @@
 			<item name="52&amp;deg;North Home" href="http://www.52north.org" />
 			<item name="52&amp;deg;North Wiki" href="https://52north.org/twiki" />
 		</links>
-		$reports
+		<menu ref="reports"/>
 	</body>
 </project>
