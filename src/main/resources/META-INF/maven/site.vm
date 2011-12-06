@@ -588,9 +588,8 @@
             <li><a href="http://blog.52north.org">Disclaimer</a></li>
             <li><a href="http://blog.52north.org">Sitemap</a></li>
             -->
-            <li><a href="http://52north.org/">Sitemap</a></li>
-<li><a href="http://52north.org/52north/others/contact">Contact</a></li>
-<li><a href="http://52north.org/52north/others/disclaimer">Disclaimer</a></li>
+			<li><a href="http://52north.org/about/contact">Contact</a></li>
+			<li><a href="http://52north.org/about/52north/disclaimer">Disclaimer</a></li>
         </ul>
         <small>Copyright &copy; 2010 52°North Initiative for Geospatial Open Source Software GmbH. All Rights Reserved.</small>
     </div>
