@@ -22,7 +22,6 @@ a {
 }
 a:active, a:visited, a:hover {
 	text-decoration: none;
-	color: #626250;
 }
 h2 {
 	background-color: #FFF;
