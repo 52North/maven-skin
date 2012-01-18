@@ -477,39 +477,39 @@
 
                 <ul id="ja-cssmenu" class="clearfix">
 <li class="active"><a href="http://52north.org/" class="menu-item0 active first-item" id="menu1" title="Home"><span class="menu-title">Home</span></a></li> 
-<li class="havechild"><a href="../../about/" class="menu-item1" id="menu2" title="About"><span class="menu-title">About</span></a><ul><li class="havesubchild"><a href="../../about/52north/" class=" first-item" id="menu168" title="52°North"><span class="menu-title">52°North</span></a></li> 
-<li ><a href="../../52-north-team"  id="menu6" title="... the people behind 52°North"><span class="menu-title">... the people behind 52°North</span></a></li> 
-<li ><a href="../../about/advisory-board/"  id="menu7" title="Advisory Board"><span class="menu-title">Advisory Board</span></a></li> 
-<li ><a href="../../about/partners/"  id="menu8" title="Partners"><span class="menu-title">Partners</span></a></li> 
-<li ><a href="../../about/licensing-model/"  id="menu5" title="Licensing"><span class="menu-title">Licensing</span></a></li> 
-<li class="havesubchild"><a href="../../about/get-involved/"  id="menu169" title="How to get involved..."><span class="menu-title">How to get involved...</span></a></li> 
+<li class="havechild"><a href="http://52north.org/about/" class="menu-item1" id="menu2" title="About"><span class="menu-title">About</span></a><ul><li class="havesubchild"><a href="http://52north.org/about/52north/" class=" first-item" id="menu168" title="52°North"><span class="menu-title">52°North</span></a></li> 
+<li ><a href="http://52north.org/52-north-team"  id="menu6" title="... the people behind 52°North"><span class="menu-title">... the people behind 52°North</span></a></li> 
+<li ><a href="http://52north.org/about/advisory-board/"  id="menu7" title="Advisory Board"><span class="menu-title">Advisory Board</span></a></li> 
+<li ><a href="http://52north.org/about/partners/"  id="menu8" title="Partners"><span class="menu-title">Partners</span></a></li> 
+<li ><a href="http://52north.org/about/licensing-model/"  id="menu5" title="Licensing"><span class="menu-title">Licensing</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/about/get-involved/"  id="menu169" title="How to get involved..."><span class="menu-title">How to get involved...</span></a></li> 
 
-<li class="havesubchild"><a href="../../about/other-activities/"  id="menu117" title="Other Activities"><span class="menu-title">Other Activities</span></a></li> 
-<li ><a href="../../about/contact/" class=" last-item" id="menu170" title="Contact"><span class="menu-title">Contact</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/about/other-activities/"  id="menu117" title="Other Activities"><span class="menu-title">Other Activities</span></a></li> 
+<li ><a href="http://52north.org/about/contact/" class=" last-item" id="menu170" title="Contact"><span class="menu-title">Contact</span></a></li> 
 </ul></li> 
-<li class="havechild"><a href="../../52north/communities/" class="menu-item2" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul><li ><a href="../../communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
-<li ><a href="../../communities/geoprocessing"  id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li> 
-<li class="havesubchild"><a href="../../communities/ilwis/"  id="menu17" title="ILWIS"><span class="menu-title">ILWIS</span></a></li> 
-<li class="havesubchild"><a href="../../communities/earth-observation/"  id="menu47" title="Earth Observation"><span class="menu-title">Earth Observation</span></a></li> 
-<li ><a href="../../communities/security/"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
+<li class="havechild"><a href="http://52north.org/52north/communities/" class="menu-item2" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul><li ><a href="http://52north.org/communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
+<li ><a href="http://52north.org/communities/geoprocessing"  id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/communities/ilwis/"  id="menu17" title="ILWIS"><span class="menu-title">ILWIS</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/communities/earth-observation/"  id="menu47" title="Earth Observation"><span class="menu-title">Earth Observation</span></a></li> 
+<li ><a href="http://52north.org/communities/security/"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
 
-<li class="havesubchild"><a href="../../communities/semantics/"  id="menu18" title="Semantics"><span class="menu-title">Semantics</span></a></li> 
-<li class="havesubchild"><a href="../../communities/geostatistics/"  id="menu19" title="Geostatistics"><span class="menu-title">Geostatistics</span></a></li> 
-<li class="havesubchild"><a href="../../communities/3d-community/"  id="menu173" title="3D Community"><span class="menu-title">3D Community</span></a></li> 
-<li class="havesubchild"><a href="../../communities/metadata-management-community/" class=" last-item" id="menu257" title="Metadata Management"><span class="menu-title">Metadata Management</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/communities/semantics/"  id="menu18" title="Semantics"><span class="menu-title">Semantics</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/communities/geostatistics/"  id="menu19" title="Geostatistics"><span class="menu-title">Geostatistics</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/communities/3d-community/"  id="menu173" title="3D Community"><span class="menu-title">3D Community</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/communities/metadata-management-community/" class=" last-item" id="menu257" title="Metadata Management"><span class="menu-title">Metadata Management</span></a></li> 
 </ul></li> 
-<li class="havechild"><a href="../../resources/" class="menu-item3" id="menu37" title="Resources"><span class="menu-title">Resources</span></a><ul><li ><a href="../../references/" class=" first-item" id="menu44" title="References"><span class="menu-title">References</span></a></li> 
-<li ><a href="../../resources/publications/"  id="menu43" title="Publications"><span class="menu-title">Publications</span></a></li> 
-<li class="havesubchild"><a href="../../resources/mailing-list-and-forums/"  id="menu188" title="Mailing List and Forums"><span class="menu-title">Mailing List and Forums</span></a></li> 
+<li class="havechild"><a href="http://52north.org//resources/" class="menu-item3" id="menu37" title="Resources"><span class="menu-title">Resources</span></a><ul><li ><a href="http://52north.org/references/" class=" first-item" id="menu44" title="References"><span class="menu-title">References</span></a></li> 
+<li ><a href="http://52north.org/resources/publications/"  id="menu43" title="Publications"><span class="menu-title">Publications</span></a></li> 
+<li class="havesubchild"><a href="http://52north.org/resources/mailing-list-and-forums/"  id="menu188" title="Mailing List and Forums"><span class="menu-title">Mailing List and Forums</span></a></li> 
 <li ><a href="https://wiki.52north.org/bin/view/" target="_blank"  id="menu42" title="Wiki"><span class="menu-title">Wiki</span></a></li> 
 
-<li ><a href="../../resources/demos/"  id="menu45" title="Demos"><span class="menu-title">Demos</span></a></li> 
-<li ><a href="../../resources/tutorials/"  id="menu46" title="Tutorials"><span class="menu-title">Tutorials</span></a></li> 
+<li ><a href="http://52north.org/resources/demos/"  id="menu45" title="Demos"><span class="menu-title">Demos</span></a></li> 
+<li ><a href="http://52north.org/resources/tutorials/"  id="menu46" title="Tutorials"><span class="menu-title">Tutorials</span></a></li> 
 <li ><a href="https://bugzilla.52north.org/"  id="menu41" title="Bugzilla"><span class="menu-title">Bugzilla</span></a></li> 
 <li ><a href="http://52north.org/schema/"  id="menu125" title="XML Schema repositories"><span class="menu-title">XML Schema repositories</span></a></li> 
-<li ><a href="../../resources/source-repositories/" class=" last-item" id="menu40" title="Source Repositories"><span class="menu-title">Source Repositories</span></a></li> 
+<li ><a href="http://52north.org/resources/source-repositories/" class=" last-item" id="menu40" title="Source Repositories"><span class="menu-title">Source Repositories</span></a></li> 
 </ul></li> 
-<li ><a href="../../downloads/" class="menu-item4" id="menu94" title="Downloads"><span class="menu-title">Downloads</span></a></li> 
+<li ><a href="http://52north.org/downloads/" class="menu-item4" id="menu94" title="Downloads"><span class="menu-title">Downloads</span></a></li> 
 <li ><a href="http://blog.52north.org/" target="_blank" class="menu-item5 last-item" id="menu109" title="Blog"><span class="menu-title">Blog</span></a></li> 
 </ul>                                <div id="ja-search">
 	#publishDate( "right_h" $decoration.publishDate $decoration.version )
