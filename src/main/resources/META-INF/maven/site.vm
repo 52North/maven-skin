@@ -476,7 +476,7 @@
             <div id="ja-mainnav">
 
                 <ul id="ja-cssmenu" class="clearfix">
-<li class="active"><a href="http://52north.org/" class="menu-item0 active first-item" id="menu1" title="Home"><span class="menu-title">Home</span></a></li> 
+<li class="active"><a href="http://52north.org/" class="menu-item0 first-item" id="menu1" title="Home"><span class="menu-title">Home</span></a></li> 
 <li class="havechild"><a href="http://52north.org/about/" class="menu-item1" id="menu2" title="About"><span class="menu-title">About</span></a><ul><li class="havesubchild"><a href="http://52north.org/about/52north/" class=" first-item" id="menu168" title="52°North"><span class="menu-title">52°North</span></a></li> 
 <li ><a href="http://52north.org/52-north-team"  id="menu6" title="... the people behind 52°North"><span class="menu-title">... the people behind 52°North</span></a></li> 
 <li ><a href="http://52north.org/about/advisory-board/"  id="menu7" title="Advisory Board"><span class="menu-title">Advisory Board</span></a></li> 
@@ -487,7 +487,7 @@
 <li class="havesubchild"><a href="http://52north.org/about/other-activities/"  id="menu117" title="Other Activities"><span class="menu-title">Other Activities</span></a></li> 
 <li ><a href="http://52north.org/about/contact/" class=" last-item" id="menu170" title="Contact"><span class="menu-title">Contact</span></a></li> 
 </ul></li> 
-<li class="havechild"><a href="http://52north.org/52north/communities/" class="menu-item2" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul><li ><a href="http://52north.org/communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
+<li class="havechild"><a href="http://52north.org/52north/communities/" class="menu-item2 active" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul><li ><a href="http://52north.org/communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
 <li ><a href="http://52north.org/communities/geoprocessing"  id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/ilwis/"  id="menu17" title="ILWIS"><span class="menu-title">ILWIS</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/earth-observation/"  id="menu47" title="Earth Observation"><span class="menu-title">Earth Observation</span></a></li> 
