@@ -325,4 +325,47 @@ div#contentBox .source pre {
 	padding: 0px;
     color: #909090;
 }
+#ja-pathwaywrap {
+	/*padding: 0 0 0 25px;*/
+        padding: 0;
+	color: #66c6e4;
+	font-weight: bold;
+	/*background: url(../images/h3-bg-hilite.gif) no-repeat left center #66c5e4;*/
+	/*margin: 0 5px 10px 0;*/
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	/*height: 30px;*/
+	margin-bottom: 10px;
+}
 
+#ja-pathway {
+	padding: 0;
+	display: block;
+	float: left;
+	width: 100%;
+	/*background: url(../images/h3-bg-hilite.gif) no-repeat right center;*/
+	margin: 0;
+	/*height: 30px;*/
+}
+
+#ja-pathway div.ja-innerpad {
+	/*padding-top: 7px;*/
+	line-height: normal;
+}
+#ja-pathway strong {
+	margin-right: 5px;
+}
+
+#ja-pathway a {
+	color: #66c6e4;
+	text-decoration: none;
+}
+
+#ja-pathway a:hover {
+	text-decoration: underline;
+}
+
+#ja-pathway img {
+	margin: 1px 5px;
+}
