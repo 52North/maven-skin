@@ -487,12 +487,24 @@
 <li class="havesubchild"><a href="http://52north.org/about/other-activities/"  id="menu117" title="Other Activities"><span class="menu-title">Other Activities</span></a></li> 
 <li ><a href="http://52north.org/about/contact/" class=" last-item" id="menu170" title="Contact"><span class="menu-title">Contact</span></a></li> 
 </ul></li> 
-<li class="havechild"><a href="http://52north.org/52north/communities/" class="menu-item2 active" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul><li ><a href="http://52north.org/communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
-<li ><a href="http://52north.org/communities/geoprocessing"  id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li> 
+<li class="havechild"><a href="http://52north.org/52north/communities/" class="menu-item2 active" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul>
+#if ($communityName.equalsIgnoreCase("SensorWeb"))
+	<li ><a href="http://52north.org/communities/sensorweb/" class=" first-item active" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li>
+#else
+	<li ><a href="http://52north.org/communities/sensorweb/" class=" first-item" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li> 
+#end 
+#if ($communityName.equalsIgnoreCase("Geoprocessing"))
+	<li ><a href="http://52north.org/communities/geoprocessing" class=" active" id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li>
+#else
+	<li ><a href="http://52north.org/communities/geoprocessing" id="menu16" title="Geoprocessing"><span class="menu-title">Geoprocessing</span></a></li>
+#end	 
 <li class="havesubchild"><a href="http://52north.org/communities/ilwis/"  id="menu17" title="ILWIS"><span class="menu-title">ILWIS</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/earth-observation/"  id="menu47" title="Earth Observation"><span class="menu-title">Earth Observation</span></a></li> 
-<li ><a href="http://52north.org/communities/security/"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
-
+#if ($communityName.equalsIgnoreCase("Security"))
+	<li ><a href="http://52north.org/communities/security/" class=" active"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
+#else
+	<li ><a href="http://52north.org/communities/security/"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
+#end
 <li class="havesubchild"><a href="http://52north.org/communities/semantics/"  id="menu18" title="Semantics"><span class="menu-title">Semantics</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/geostatistics/"  id="menu19" title="Geostatistics"><span class="menu-title">Geostatistics</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/3d-community/"  id="menu173" title="3D Community"><span class="menu-title">3D Community</span></a></li> 
@@ -591,7 +603,7 @@
                         </td>
                         <td>
                             <a href="http://www.conterra.de" target="_blank" title="con terra GmbH">
-                                <img height="40" border="0" width="81" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/conterra.gif" />
+                                <img height="40" border="0" width="81" alt="" src="http://52north.org/images/logos/conterra_new.png" />
                             </a>
                         </td>
                     </tr>
