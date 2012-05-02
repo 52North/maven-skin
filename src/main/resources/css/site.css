@@ -46,10 +46,8 @@ img, img a {
 }
 #bg_h {
     height: 90px;
-    padding:0;
-    margin:0;
-    width: 100%;
-    background: url(../images/bg.png) no-repeat transparent;
+    background: url(http://52north.org/templates/52n/images/bg.png) no-repeat scroll 50% 50% transparent;
+    background-color:#626250;
 }
 #navigation_h {
     background: url(../images/mainnav-bg.gif) repeat-x scroll center top transparent;
