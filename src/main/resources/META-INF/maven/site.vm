@@ -113,7 +113,7 @@
     <a class="pathway" href="$currentItemHref">$item.name</a>
     #end
     #if ( $breadcrumbs.size() > $counter )
-    <img alt="" src="http://52north.org/templates/52n/images/arrow.png">
+    <img alt="" src="http://52north.org/templates/52n/images/arrow.png"/>
     #end
   #end
 #end
@@ -127,7 +127,7 @@
 #set ( $currentItemHref = $PathTool.calculateLink( $subItem.href, $relativePath ))
 #set ( $currentItemHref = $currentItemHref.replaceAll( "\\", "/" ) )
 #if($alignedFileName == $currentItemHref || $display == true)
-    <img alt="" src="http://52north.org/templates/52n/images/arrow.png">
+    <img alt="" src="http://52north.org/templates/52n/images/arrow.png"/>
 #if($alignedFileName == $currentItemHref)
 	$subItem.name
 #else
@@ -148,7 +148,7 @@
 #set ( $currentItemHref = $PathTool.calculateLink( $item.href, $relativePath ))
 #set ( $currentItemHref = $currentItemHref.replaceAll( "\\", "/" ) )
 #if($alignedFileName == $currentItemHref || $display == true)
-    <img alt="" src="http://52north.org/templates/52n/images/arrow.png">
+    <img alt="" src="http://52north.org/templates/52n/images/arrow.png"/>
     #if($alignedFileName == $currentItemHref)
     $item.name
     #else
@@ -484,20 +484,6 @@
     </style>
     <link rel="stylesheet" href="$relativePath/css/print.css" type="text/css" media="print" />
     <link rel="stylesheet" href="http://52north.org/templates/52n/52n_menus/52n_cssmenu/52n.cssmenu.css" type="text/css"/>
-	<!-- Piwik -->
-	<script type="text/javascript">
-		var pkBaseURL = (("https:" == document.location.protocol) ? "https://wiki.52north.org/piwik/" : "http://wiki.52north.org/piwik/");
-		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-		piwikTracker.trackPageView();
-		piwikTracker.enableLinkTracking();
-		} catch( err ) {}
-	</script>
-	<noscript><p><img src="http://wiki.52north.org/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-	<!-- End Piwik Tracking Code -->
 #foreach( $author in $authors )
       <meta name="author" content="$author" />
 #end
@@ -558,9 +544,9 @@
 <li class="havesubchild"><a href="http://52north.org/communities/ilwis/"  id="menu17" title="ILWIS"><span class="menu-title">ILWIS</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/earth-observation/"  id="menu47" title="Earth Observation"><span class="menu-title">Earth Observation</span></a></li> 
 #if ($communityName.equalsIgnoreCase("Security"))
-	<li ><a href="http://52north.org/communities/security/" class=" active"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
+	<li ><a href="http://52north.org/communities/security/" class=" active"  id="menu15" title="Security &amp; Geo-RM"><span class="menu-title">Security &amp; Geo-RM</span></a></li> 
 #else
-	<li ><a href="http://52north.org/communities/security/"  id="menu15" title="Security & Geo-RM"><span class="menu-title">Security & Geo-RM</span></a></li> 
+	<li ><a href="http://52north.org/communities/security/"  id="menu15" title="Security &amp; Geo-RM"><span class="menu-title">Security &amp; Geo-RM</span></a></li> 
 #end
 <li class="havesubchild"><a href="http://52north.org/communities/semantics/"  id="menu18" title="Semantics"><span class="menu-title">Semantics</span></a></li> 
 <li class="havesubchild"><a href="http://52north.org/communities/geostatistics/"  id="menu19" title="Geostatistics"><span class="menu-title">Geostatistics</span></a></li> 
@@ -587,13 +573,18 @@
   </div>
   </div>
   </div>
-  </div>
 	
 	 
 	#* <div class="xright">#links( $decoration.body.links )#publishDate( "right" $decoration.publishDate $decoration.version )</div> *#
-
+	
+	<div id="wrapper">  
+   <!--<div id="leftColumn">
+    <div id="navcolumn"></div>
+   </div>-->
+   <a title="52&deg;North Initiative for Geospatial Open Source Software GmbH" href="http://52north.org/">
+    <span><img border="0" src="http://52north.org/templates/52n/images/52n-logo.gif" alt="Logo of 52&deg;North" /></span>
+   </a>
 	 
-	<div id="wrapper">
 	<div id="ja-pathwaywrap"><div id="ja-pathway"><div class="ja-innerpad"><span class="breadcrumbs pathway">#if ( $breadcrumbs && $breadcrumbs.size() > 0 )#breadcrumbs( $breadcrumbs )#end#secondaryMenu( $decoration.body.menus )</span></div></div></div>
 	#*<div id="pathway"></div>*#
     <div id="leftColumn">
@@ -643,11 +634,11 @@
                 <h3>Affiliations</h3>
                 <p>The 52&deg; North affiliations:</p>
                 <a href="http://www.opengeospatial.org/" target="_blank" title="OGC Associate Members">
-                    <img border="0" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/ogc.gif">
+                    <img border="0" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/ogc.gif"/>
                 </a>
-                <br>
+                <br/>
                 <a href="http://www.sensorweb-alliance.org/" target="_blank" title="Sensor Web Alliance">
-                    <img border="0" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/swa.gif">
+                    <img border="0" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/swa.gif"/>
                 </a>
             </div>
             <div class="fn_box">
@@ -696,7 +687,20 @@
     </div>
 </div>
 	
-	
+		<!-- Piwik -->
+	<script type="text/javascript">
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://wiki.52north.org/piwik/" : "http://wiki.52north.org/piwik/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	</script>
+	<noscript><p><img src="http://wiki.52north.org/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+	<!-- End Piwik Tracking Code -->
 	
 	
    #* <div id="footer">	

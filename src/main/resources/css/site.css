@@ -93,7 +93,7 @@ img, img a {
 #wrapper {
     clear: both;    
     width:920px;
-    margin:20px auto;
+    margin:10px auto;
     padding:0;
 }
 
@@ -325,7 +325,7 @@ div#contentBox .source pre {
 }
 #ja-pathwaywrap {
 	/*padding: 0 0 0 25px;*/
-        padding: 0;
+    padding: 12px 0 0;
 	color: #66c6e4;
 	font-weight: bold;
 	/*background: url(../images/h3-bg-hilite.gif) no-repeat left center #66c5e4;*/

@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.n52</groupId>
     <artifactId>maven-skin</artifactId>
-    <version>8.0.2</version>
+    <version>8.0.3</version>
     <name>52&amp;deg; North Maven Skin</name>
     <description>52North Maven Skin</description>
     <scm>
