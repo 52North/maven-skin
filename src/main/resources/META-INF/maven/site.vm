@@ -634,11 +634,11 @@
                 <h3>Affiliations</h3>
                 <p>The 52&deg; North affiliations:</p>
                 <a href="http://www.opengeospatial.org/" target="_blank" title="OGC Associate Members">
-                    <img border="0" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/ogc.gif"/>
+                    <img border="0" alt="" src="http://52north.org/images/logos/ogc.gif"/>
                 </a>
                 <br/>
                 <a href="http://www.sensorweb-alliance.org/" target="_blank" title="Sensor Web Alliance">
-                    <img border="0" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/swa.gif"/>
+                    <img border="0" alt="" src="http://52north.org/images/logos/swa.gif"/>
                 </a>
             </div>
             <div class="fn_box">
@@ -648,7 +648,7 @@
                     <tbody><tr>
                         <td>
                             <a href="http://ifgi.uni-muenster.de" target="_blank" title="Institute for Geoinformatics">
-                                <img height="40" border="0" width="117" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/ifgi.gif" />
+                                <img height="40" border="0" width="117" alt="" src="http://52north.org/images/logos/ifgi.gif""/>
                             </a>
                         </td>
                         <td>
@@ -660,12 +660,12 @@
                     <tr>
                         <td>
                             <a href="http://www.esri.com" target="_blank" title="ESRI">
-                                <img height="40" border="0" width="110" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/esri_new.gif" />
+                                <img height="40" border="0" width="110" alt="" src="http://52north.org/images/logos/esri_new.gif" />
                             </a>
                         </td>
                         <td>
                             <a href="http://www.itc.nl" target="_blank" title="International Institute for Geo-Information  Science and Earth    Observation">
-                                <img height="40" border="0" width="34" alt="" src="http://blog.52north.org/wp-content/themes/52n/images/itc.gif" />
+                                <img height="40" border="0" width="34" alt="" src="http://52north.org/images/logos/itc.gif" />
                             </a>
                         </td>
                     </tr>
@@ -681,7 +681,7 @@
             <li><a href="http://blog.52north.org">Sitemap</a></li>
             -->
 			<li><a href="http://52north.org/about/contact">Contact</a></li>
-			<li><a href="http://52north.org/about/52north/disclaimer">Disclaimer</a></li>
+			<li><a href="http://52north.org/about/imprint/">Imprint</a></li>
         </ul>
         <small>Copyright &copy; 2010 52°North Initiative for Geospatial Open Source Software GmbH. All Rights Reserved.</small>
     </div>
