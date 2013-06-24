@@ -528,8 +528,9 @@
 
 <li class="havesubchild"><a href="http://52north.org/about/other-activities/"  id="menu117" title="Other Activities"><span class="menu-title">Other Activities</span></a></li> 
 <li ><a href="http://52north.org/about/contact/" class=" last-item" id="menu170" title="Contact"><span class="menu-title">Contact</span></a></li> 
+<li ><a href="http://52north.org/about/imprint/" class=" last-item" id="menu171" title="Imprint"><span class="menu-title">Imprint</span></a></li> 
 </ul></li> 
-<li class="havechild"><a href="http://52north.org/52north/communities/" class="menu-item2 active" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul>
+<li class="havechild"><a href="http://52north.org/communities/" class="menu-item2 active" id="menu13" title="Communities"><span class="menu-title">Communities</span></a><ul>
 #if ($communityName.equalsIgnoreCase("SensorWeb"))
 	<li ><a href="http://52north.org/communities/sensorweb/" class=" first-item active" id="menu14" title="Sensor Web"><span class="menu-title">Sensor Web</span></a></li>
 #else
@@ -663,7 +664,7 @@
                             </a>
                         </td>
                         <td>
-                            <a href="http://www.itc.nl" target="_blank" title="International Institute for Geo-Information  Science and Earth    Observation">
+                            <a href="http://www.itc.nl" target="_blank" title="International Institute for Geo-Information Science and Earth Observation">
                                 <img height="40" border="0" width="34" alt="" src="http://52north.org/images/logos/itc.gif" />
                             </a>
                         </td>
