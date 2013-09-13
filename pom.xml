@@ -9,19 +9,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.n52</groupId>
     <artifactId>maven-skin</artifactId>
-    <version>8.0.6</version>
-    <name>52&amp;deg; North Maven Skin</name>
-    <description>52North Maven Skin</description>
+    <version>8.0.7</version>
+    <name>52&deg;North Maven Skin</name>
+    <description>52&deg;North Maven Skin</description>
     <scm>
         <!-- Specification of the Source-Content-Managmentsystem -->
         <connection>
-            scm:svn:http://52north.org/svn/52n/maven-skin/trunk
+            scm:svn:http://svn.52north.org/svn/52n/maven-skin/trunk
         </connection>
         <developerConnection>
-            scm:svn:https://52north.org/svn/52n/maven-skin/trunk
+            scm:svn:https://svn.52north.org/svn/52n/maven-skin/trunk
         </developerConnection>
         <url>
-            http://52north.org/cgi-bin/viewvc.cgi/maven-skin/trunk/?root=52n
+            http://svn.52north.org/cgi-bin/viewvc.cgi/maven-skin/trunk/?root=52n
         </url>
     </scm>
     <build>
@@ -29,6 +29,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.7.1</version>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
