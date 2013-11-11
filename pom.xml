@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.n52</groupId>
         <artifactId>52-North</artifactId>
-        <version>5.6.6</version>
+        <version>5.6.9</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.n52</groupId>
     <artifactId>maven-skin</artifactId>
-    <version>8.0.8</version>
+    <version>8.0.9</version>
     <name>52&deg;North Maven Skin</name>
     <description>52&deg;North Maven Skin</description>
     <scm>
