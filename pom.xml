@@ -37,7 +37,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>maven-skin</artifactId>
-	<version>8.0.11</version>
+	<version>8.0.12-SNAPSHOT</version>
 	<name>52North Maven Skin</name>
 	<description>52North Maven Skin</description>
 	<inceptionYear>2007</inceptionYear>
