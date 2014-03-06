@@ -733,7 +733,7 @@
             <div class="fn_box">
                 <h3>Communities</h3>
                 <ul class="fn_list">
-                    <li><a href="http://52north.org/communities/3d/">3D Community</a></li>
+                    <li><a href="http://52north.org/communities/3d/">3D</a></li>
                     <li><a href="http://52north.org/communities/earth-observation/">Earth Observation</a></li>
                     <li><a href="http://52north.org/communities/geoprocessing/">Geoprocessing</a></li>
                     <li><a href="http://52north.org/communities/geostatistics/">Geostatistics</a></li>
@@ -751,6 +751,7 @@
                     <li><a href="http://52north.org/about/get-involved/">How to get involved</a></li>
                     <li><a href="http://52north.org/about/licensing">About Licensing</a></li>
                     <li><a href="http://52north.org/about/get-involved/partnership-levels">Partnership Levels</a></li>
+                    <li><a href="http://52north.org/about/get-involved/donation-of-shares">Current shares</a></li>
                 </ul>
             </div>
             <div class="fn_box">
@@ -801,7 +802,7 @@
 			<li><a href="http://52north.org/about/contact">Contact</a></li>
 			<li><a href="http://52north.org/about/imprint/">Imprint</a></li>
         </ul>
-        <small>Copyright &copy; 2013 52&deg;North Initiative for Geospatial Open Source Software GmbH. All Rights Reserved.</small>
+        <small>Copyright &copy; 2014 52&deg;North Initiative for Geospatial Open Source Software GmbH. All Rights Reserved.</small>
     </div>
 </div>
     <!-- BEGIN: Piwik -->
