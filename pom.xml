@@ -29,8 +29,7 @@
     Public License for more details.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
 		<groupId>org.n52</groupId>
 		<artifactId>52-North</artifactId>
@@ -38,7 +37,7 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>maven-skin</artifactId>
-	<version>8.0.11-SNAPSHOT</version>
+	<version>8.0.11</version>
 	<name>52North Maven Skin</name>
 	<description>52North Maven Skin</description>
 	<inceptionYear>2007</inceptionYear>
